@@ -1,4 +1,4 @@
-# Paste URL into selection
+# Paste URL with title
 
 Insert links into a selected text "notion-style" (default hotkey is `ctrl + shift + v`).
 

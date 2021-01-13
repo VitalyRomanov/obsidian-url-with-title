@@ -1,7 +1,7 @@
 {
-  "name": "obsidian-url-into-selection",
+  "name": "obsidian-url-with-title",
   "version": "1.1.0",
-  "description": "Paste URL \"into\" selected text",
+  "description": "Paste URL with title",
   "main": "main.js",
   "scripts": {
     "dev": "rollup --config rollup.config.js -w",
@@ -13,9 +13,11 @@
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-json": "^4.0.0",
     "@rollup/plugin-node-resolve": "^9.0.0",
     "@rollup/plugin-typescript": "^6.0.0",
     "@types/node": "^14.14.2",
+    "get-url-title": "^1.0.6",
     "obsidian": "https://github.com/obsidianmd/obsidian-api/tarball/master",
     "prettier": "2.1.2",
     "rollup": "^2.32.1",
@@ -25,6 +27,7 @@
   },
   "dependencies": {
     "electron": "^10.1.5",
+    "get-url-title": "^1.0.6",
     "supports-color": "^7.2.0"
   }
 }
